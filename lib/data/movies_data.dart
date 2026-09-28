@@ -1,6 +1,6 @@
 import '../models/movie.dart';
 
-const List<Movie> sampleMovies = [
+final List<Movie> sampleMovies = [
   Movie(
     title: 'Inception',
     posterPath: 'assets/images/inception.jpg',

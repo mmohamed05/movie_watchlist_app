@@ -3,11 +3,13 @@ class Movie {
   final String posterPath;
   final List<String> cast;
   final String synopsis;
+  bool isWatchlisted;
 
-  const Movie({
+  Movie({
     required this.title,
     required this.posterPath,
     required this.cast,
     required this.synopsis,
+    this.isWatchlisted = false,
   });
 }
